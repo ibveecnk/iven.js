@@ -1,4 +1,4 @@
-FROM node:14.0.0
+FROM node:16.3.0
 WORKDIR /usr/src/app
 
 RUN apt-get update && apt-get install ffmpeg -y --no-install-recommends -qq \
